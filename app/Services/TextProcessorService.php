@@ -6,10 +6,6 @@ class TextProcessorService
 {
     /**
      * 處理文字操作
-     *
-     * @param string $text
-     * @param array $operations
-     * @return string
      */
     public function processText(string $text, array $operations): string
     {
